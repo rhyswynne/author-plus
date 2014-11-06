@@ -7,7 +7,7 @@ Version:      1.9
 Author:       Rhys Wynne
 Author URI:   http://winwar.co.uk/
 
-Contributors: @rhyswynne
+Contributors: rhyswynne
 Link: 
 Tags: multi author, author, bio
 Requires at least: 3.0
@@ -55,8 +55,8 @@ To begin with, on `author.php`, add this line. This will get the information on 
 
 `$author = wp_authorplus_get_user_on_author_page();`
 
-You can then use the standard `echo $author->display_name;` and similar notation as shown in (The Wordpress Codex)[http://codex.wordpress.org/Author_Templates#Using_Author_Information].
+You can then use the standard `echo $author->display_name;` and similar notation as shown in [The Wordpress Codex](http://codex.wordpress.org/Author_Templates#Using_Author_Information).
 
 To call the extended author descriptions, use `<?php wp_authorplus_extended_author_bio($author->ID); ?>` anywhere outside the Wordpress Loop, but after you declare $author on wp_authorplus_get_user_on_author_page().
 
-Any questions, please [Contact Me](http://winwar.co.uk/contact-us/). Support is provided by either the (WordPress Support Forum)[https://wordpress.org/support/plugin/author] or the [**Priority Support Forum**](http://winwar.co.uk/priority-support/)
+Any questions, please [Contact Me](http://winwar.co.uk/contact-us/). Support is provided by either the [WordPress Support Forum](https://wordpress.org/support/plugin/author) or the [**Priority Support Forum**](http://winwar.co.uk/priority-support/)
